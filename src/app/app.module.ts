@@ -35,8 +35,12 @@ const isIE = window.navigator.userAgent.indexOf('MSIE ') > -1 || window.navigato
       auth: {
         //Inquilino: 89149e09-cf12-4c58-ba93-5b2d5dcdbf4f
         //Cliente: 2e2b291e-c7fd-4058-a63b-dcd9a304a2fb
-        clientId: '2e2b291e-c7fd-4058-a63b-dcd9a304a2fb', // Application (client) ID from the app registration
-        authority: 'https://login.microsoftonline.com/89149e09-cf12-4c58-ba93-5b2d5dcdbf4f', // The Azure cloud instance and the app's sign-in audience (tenant ID, common, organizations, or consumers)
+
+        //Esmax
+        //Inquilino: 729f72ac-8060-4779-8ce0-60bbfefbb2e0
+        //Cliente: c8282c23-3eb6-466a-bc0b-e142ea7642e8
+        clientId: 'c8282c23-3eb6-466a-bc0b-e142ea7642e8', // Application (client) ID from the app registration
+        authority: 'https://login.microsoftonline.com/729f72ac-8060-4779-8ce0-60bbfefbb2e0', // The Azure cloud instance and the app's sign-in audience (tenant ID, common, organizations, or consumers)
         redirectUri: 'http://localhost:4200'// This is your redirect URI
       },
       cache: {
@@ -64,5 +68,6 @@ const isIE = window.navigator.userAgent.indexOf('MSIE ') > -1 || window.navigato
     MsalGuard
   ],
   bootstrap: [AppComponent, MsalRedirectComponent]
+  
 })
 export class AppModule { }

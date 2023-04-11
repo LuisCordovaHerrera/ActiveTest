@@ -35,6 +35,7 @@ export class AppComponent implements OnInit, OnDestroy {
       this.authService.loginPopup({...this.msalGuardConfig.authRequest} as PopupRequest)
         .subscribe({
           next: (result) => {
+            console.log(result.accessToken);
             console.log(result);
             this.setLoginDisplay();
           },

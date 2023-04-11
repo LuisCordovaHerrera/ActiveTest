@@ -1,0 +1,10 @@
+{
+  "userId": "5a4c554e-d1a2-4286-b611-a3f90146e341",
+  "name": "Luis Cordova",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJMdWlzIENvcmRvdmEiLCJqdGkiOiI1YTRjNTU0ZS1kMWEyLTQyODYtYjYxMS1hM2Y5MDE0NmUzNDEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiTHVpcyBDb3Jkb3ZhIiwiVXNlcklkIjoiNWE0YzU1NGUtZDFhMi00Mjg2LWI2MTEtYTNmOTAxNDZlMzQxIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiUHJpY2VNYXhBZG1pbmlzdHJhZG9yVEkiLCJleHAiOjE2ODA3NDE2MDQsImlzcyI6Imp3dCIsImF1ZCI6Imp3dCJ9.qim9-61a994m5ZKew9eLJ-bv8vi1uwtUqg1XF8yHgIo",
+  "roles": [
+    "PriceMaxAdministradorTI"
+  ],
+  "permissions": null,
+  "mockupMenu": "[{\"Jerarquia\": \"43\",\"Posicion\": 10,\"id_menu\": 43,\"menu\": \"B2B\",\"url\": \"#\",\"id_menu_padre\": null,\"id_permiso\": null,\"perfil\": \"Administrador TI\"},{\"Jerarquia\": \"43->1\",\"Posicion\": 1,\"id_menu\": 1,\"menu\": \"Tareas\",\"url\": \"Tasks/MyTasks/Index\",\"id_menu_padre\": 43,\"id_permiso\": 1,\"perfil\": \"Administrador TI\"},{\"Jerarquia\": \"44\",\"Posicion\": 11,\"id_menu\": 44,\"menu\": \"RETAIL\",\"url\": \"#\",\"id_menu_padre\": null,\"id_permiso\": null,\"perfil\": \"Administrador TI\"},{\"Jerarquia\": \"45\",\"Posicion\": 9,\"id_menu\": 45,\"menu\": \"PRICEMAX\",\"url\": \"#\",\"id_menu_padre\": null,\"id_permiso\": null,\"perfil\": \"Administrador TI\"}]"
+}
